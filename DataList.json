@@ -1,0 +1,58 @@
+{
+  "SoftwareList" : {
+	  "Docker" : {
+        "path" : "inatallationFiles\\Docker_Desktop_Installer_2.2.0.4.exe",
+        "arguments" : "install --quiet",
+		"version" : "2.2.0.4",
+        "DownloadLink": "https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe"
+      },
+      "Notepad++" : {
+        "path" : "inatallationFiles\\npp.7.8.Installer.x64.exe",
+        "arguments" : "\/S /noUpdater -Verb RunAs",
+		"version" : "7.8",
+        "DownloadLink":"https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v7.8.8/npp.7.8.8.Installer.x64.exe"
+      },
+      "VisualStudioCode" : {
+        "path" : "inatallationFiles\\VSCodeSetup-x64-1.39.2.exe",
+        "arguments" : "/VERYSILENT /NORESTART /MERGETASKS=!runcode -Verb RunAs -PassThru",
+		"version" : "1.39.2",
+        "DownloadLink":"https://go.microsoft.com/fwlink/?Linkid=852157"
+      },
+	  "VisualStudioProfessional" : {
+        "path" : "inatallationFiles\\vcredist_x86.exe",
+        "arguments" : "/Q",
+		"version" : "3.1.9",
+        "DownloadLink":""
+      },
+      "JDK8" : {
+        "path" : "inatallationFiles\\jdk-8u241-windows-x64_1.8.exe",
+        "arguments" : "/s REBOOT=Suppress",
+		"version" : "1.8",
+        "DownloadLink":"https://packages.baidu.com/app/jdk-8/jdk-8u201-windows-i586.exe"
+      },
+	  "Tomcat" : {
+        "path" : "inatallationFiles\\apache-tomcat-8.5.51.exe",
+        "arguments" : "/S",
+		"version" : "8.5.51",
+        "DownloadLink":"http://us.mirrors.quenda.co/apache/tomcat/tomcat-7/v7.0.105/bin/apache-tomcat-7.0.105.exe"
+      },
+	  "ECLIPSE" : {
+		"path" : "inatallationFiles\\eclipse-java-2020-03-R-win32-x86_64_4.15.zip",
+		"arguments" : "Eclipse",
+		"version" : "4.15",
+        "DownloadLink":""
+	  },
+      "Maven" : {
+        "path" : "inatallationFiles\\apache-maven-3.6.3-bin.zip",
+		"arguments" : "Maven",
+		"version" : "3.6.3",
+        "DownloadLink":"https://www.mirrorservice.org/sites/ftp.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip"
+      },
+      "Gradle" : {
+        "path" : "inatallationFiles\\gradle-6.3-bin.zip",
+		"arguments" : "Gradle",
+		"version" : "6.3",
+        "DownloadLink":"https://services.gradle.org/distributions/gradle-6.3-bin.zip"
+	  }
+  }
+}
